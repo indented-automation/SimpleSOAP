@@ -1,0 +1,828 @@
+﻿[
+    {
+        "AtomicNumber":  1,
+        "Symbol":  "H",
+        "Name":  "Hydrogen",
+        "AtomicMass":  "1.00794(4)",
+        "Group":  "nonmetal"
+    },
+    {
+        "AtomicNumber":  2,
+        "Symbol":  "He",
+        "Name":  "Helium",
+        "AtomicMass":  "4.002602(2)",
+        "Group":  "noble gas"
+    },
+    {
+        "AtomicNumber":  3,
+        "Symbol":  "Li",
+        "Name":  "Lithium",
+        "AtomicMass":  "6.941(2)",
+        "Group":  "alkali metal"
+    },
+    {
+        "AtomicNumber":  4,
+        "Symbol":  "Be",
+        "Name":  "Beryllium",
+        "AtomicMass":  "9.012182(3)",
+        "Group":  "alkaline earth metal"
+    },
+    {
+        "AtomicNumber":  5,
+        "Symbol":  "B",
+        "Name":  "Boron",
+        "AtomicMass":  "10.811(7)",
+        "Group":  "metalloid"
+    },
+    {
+        "AtomicNumber":  6,
+        "Symbol":  "C",
+        "Name":  "Carbon",
+        "AtomicMass":  "12.0107(8)",
+        "Group":  "nonmetal"
+    },
+    {
+        "AtomicNumber":  7,
+        "Symbol":  "N",
+        "Name":  "Nitrogen",
+        "AtomicMass":  "14.0067(2)",
+        "Group":  "nonmetal"
+    },
+    {
+        "AtomicNumber":  8,
+        "Symbol":  "O",
+        "Name":  "Oxygen",
+        "AtomicMass":  "15.9994(3)",
+        "Group":  "nonmetal"
+    },
+    {
+        "AtomicNumber":  9,
+        "Symbol":  "F",
+        "Name":  "Fluorine",
+        "AtomicMass":  "18.9984032(5)",
+        "Group":  "halogen"
+    },
+    {
+        "AtomicNumber":  10,
+        "Symbol":  "Ne",
+        "Name":  "Neon",
+        "AtomicMass":  "20.1797(6)",
+        "Group":  "noble gas"
+    },
+    {
+        "AtomicNumber":  11,
+        "Symbol":  "Na",
+        "Name":  "Sodium",
+        "AtomicMass":  "22.98976928(2)",
+        "Group":  "alkali metal"
+    },
+    {
+        "AtomicNumber":  12,
+        "Symbol":  "Mg",
+        "Name":  "Magnesium",
+        "AtomicMass":  "24.3050(6)",
+        "Group":  "alkaline earth metal"
+    },
+    {
+        "AtomicNumber":  13,
+        "Symbol":  "Al",
+        "Name":  "Aluminum",
+        "AtomicMass":  "26.9815386(8)",
+        "Group":  "metal"
+    },
+    {
+        "AtomicNumber":  14,
+        "Symbol":  "Si",
+        "Name":  "Silicon",
+        "AtomicMass":  "28.0855(3)",
+        "Group":  "metalloid"
+    },
+    {
+        "AtomicNumber":  15,
+        "Symbol":  "P",
+        "Name":  "Phosphorus",
+        "AtomicMass":  "30.973762(2)",
+        "Group":  "nonmetal"
+    },
+    {
+        "AtomicNumber":  16,
+        "Symbol":  "S",
+        "Name":  "Sulfur",
+        "AtomicMass":  "32.065(5)",
+        "Group":  "nonmetal"
+    },
+    {
+        "AtomicNumber":  17,
+        "Symbol":  "Cl",
+        "Name":  "Chlorine",
+        "AtomicMass":  "35.453(2)",
+        "Group":  "halogen"
+    },
+    {
+        "AtomicNumber":  18,
+        "Symbol":  "Ar",
+        "Name":  "Argon",
+        "AtomicMass":  "39.948(1)",
+        "Group":  "noble gas"
+    },
+    {
+        "AtomicNumber":  19,
+        "Symbol":  "K",
+        "Name":  "Potassium",
+        "AtomicMass":  "39.0983(1)",
+        "Group":  "alkali metal"
+    },
+    {
+        "AtomicNumber":  20,
+        "Symbol":  "Ca",
+        "Name":  "Calcium",
+        "AtomicMass":  "40.078(4)",
+        "Group":  "alkaline earth metal"
+    },
+    {
+        "AtomicNumber":  21,
+        "Symbol":  "Sc",
+        "Name":  "Scandium",
+        "AtomicMass":  "44.955912(6)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  22,
+        "Symbol":  "Ti",
+        "Name":  "Titanium",
+        "AtomicMass":  "47.867(1)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  23,
+        "Symbol":  "V",
+        "Name":  "Vanadium",
+        "AtomicMass":  "50.9415(1)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  24,
+        "Symbol":  "Cr",
+        "Name":  "Chromium",
+        "AtomicMass":  "51.9961(6)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  25,
+        "Symbol":  "Mn",
+        "Name":  "Manganese",
+        "AtomicMass":  "54.938045(5)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  26,
+        "Symbol":  "Fe",
+        "Name":  "Iron",
+        "AtomicMass":  "55.845(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  27,
+        "Symbol":  "Co",
+        "Name":  "Cobalt",
+        "AtomicMass":  "58.933195(5)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  28,
+        "Symbol":  "Ni",
+        "Name":  "Nickel",
+        "AtomicMass":  "58.6934(4)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  29,
+        "Symbol":  "Cu",
+        "Name":  "Copper",
+        "AtomicMass":  "63.546(3)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  30,
+        "Symbol":  "Zn",
+        "Name":  "Zinc",
+        "AtomicMass":  "65.38(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  31,
+        "Symbol":  "Ga",
+        "Name":  "Gallium",
+        "AtomicMass":  "69.723(1)",
+        "Group":  "metal"
+    },
+    {
+        "AtomicNumber":  32,
+        "Symbol":  "Ge",
+        "Name":  "Germanium",
+        "AtomicMass":  "72.64(1)",
+        "Group":  "metalloid"
+    },
+    {
+        "AtomicNumber":  33,
+        "Symbol":  "As",
+        "Name":  "Arsenic",
+        "AtomicMass":  "74.92160(2)",
+        "Group":  "metalloid"
+    },
+    {
+        "AtomicNumber":  34,
+        "Symbol":  "Se",
+        "Name":  "Selenium",
+        "AtomicMass":  "78.96(3)",
+        "Group":  "nonmetal"
+    },
+    {
+        "AtomicNumber":  35,
+        "Symbol":  "Br",
+        "Name":  "Bromine",
+        "AtomicMass":  "79.904(1)",
+        "Group":  "halogen"
+    },
+    {
+        "AtomicNumber":  36,
+        "Symbol":  "Kr",
+        "Name":  "Krypton",
+        "AtomicMass":  "83.798(2)",
+        "Group":  "noble gas"
+    },
+    {
+        "AtomicNumber":  37,
+        "Symbol":  "Rb",
+        "Name":  "Rubidium",
+        "AtomicMass":  "85.4678(3)",
+        "Group":  "alkali metal"
+    },
+    {
+        "AtomicNumber":  38,
+        "Symbol":  "Sr",
+        "Name":  "Strontium",
+        "AtomicMass":  "87.62(1)",
+        "Group":  "alkaline earth metal"
+    },
+    {
+        "AtomicNumber":  39,
+        "Symbol":  "Y",
+        "Name":  "Yttrium",
+        "AtomicMass":  "88.90585(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  40,
+        "Symbol":  "Zr",
+        "Name":  "Zirconium",
+        "AtomicMass":  "91.224(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  41,
+        "Symbol":  "Nb",
+        "Name":  "Niobium",
+        "AtomicMass":  "92.90638(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  42,
+        "Symbol":  "Mo",
+        "Name":  "Molybdenum",
+        "AtomicMass":  "95.96(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  43,
+        "Symbol":  "Tc",
+        "Name":  "Technetium",
+        "AtomicMass":  "[98]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  44,
+        "Symbol":  "Ru",
+        "Name":  "Ruthenium",
+        "AtomicMass":  "101.07(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  45,
+        "Symbol":  "Rh",
+        "Name":  "Rhodium",
+        "AtomicMass":  "102.90550(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  46,
+        "Symbol":  "Pd",
+        "Name":  "Palladium",
+        "AtomicMass":  "106.42(1)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  47,
+        "Symbol":  "Ag",
+        "Name":  "Silver",
+        "AtomicMass":  "107.8682(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  48,
+        "Symbol":  "Cd",
+        "Name":  "Cadmium",
+        "AtomicMass":  "112.411(8)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  49,
+        "Symbol":  "In",
+        "Name":  "Indium",
+        "AtomicMass":  "114.818(3)",
+        "Group":  "metal"
+    },
+    {
+        "AtomicNumber":  50,
+        "Symbol":  "Sn",
+        "Name":  "Tin",
+        "AtomicMass":  "118.710(7)",
+        "Group":  "metal"
+    },
+    {
+        "AtomicNumber":  51,
+        "Symbol":  "Sb",
+        "Name":  "Antimony",
+        "AtomicMass":  "121.760(1)",
+        "Group":  "metalloid"
+    },
+    {
+        "AtomicNumber":  52,
+        "Symbol":  "Te",
+        "Name":  "Tellurium",
+        "AtomicMass":  "127.60(3)",
+        "Group":  "metalloid"
+    },
+    {
+        "AtomicNumber":  53,
+        "Symbol":  "I",
+        "Name":  "Iodine",
+        "AtomicMass":  "126.90447(3)",
+        "Group":  "halogen"
+    },
+    {
+        "AtomicNumber":  54,
+        "Symbol":  "Xe",
+        "Name":  "Xenon",
+        "AtomicMass":  "131.293(6)",
+        "Group":  "noble gas"
+    },
+    {
+        "AtomicNumber":  55,
+        "Symbol":  "Cs",
+        "Name":  "Cesium",
+        "AtomicMass":  "132.9054519(2)",
+        "Group":  "alkali metal"
+    },
+    {
+        "AtomicNumber":  56,
+        "Symbol":  "Ba",
+        "Name":  "Barium",
+        "AtomicMass":  "137.327(7)",
+        "Group":  "alkaline earth metal"
+    },
+    {
+        "AtomicNumber":  57,
+        "Symbol":  "La",
+        "Name":  "Lanthanum",
+        "AtomicMass":  "138.90547(7)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  58,
+        "Symbol":  "Ce",
+        "Name":  "Cerium",
+        "AtomicMass":  "140.116(1)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  59,
+        "Symbol":  "Pr",
+        "Name":  "Praseodymium",
+        "AtomicMass":  "140.90765(2)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  60,
+        "Symbol":  "Nd",
+        "Name":  "Neodymium",
+        "AtomicMass":  "144.242(3)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  61,
+        "Symbol":  "Pm",
+        "Name":  "Promethium",
+        "AtomicMass":  "[145]",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  62,
+        "Symbol":  "Sm",
+        "Name":  "Samarium",
+        "AtomicMass":  "150.36(2)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  63,
+        "Symbol":  "Eu",
+        "Name":  "Europium",
+        "AtomicMass":  "151.964(1)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  64,
+        "Symbol":  "Gd",
+        "Name":  "Gadolinium",
+        "AtomicMass":  "157.25(3)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  65,
+        "Symbol":  "Tb",
+        "Name":  "Terbium",
+        "AtomicMass":  "158.92535(2)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  66,
+        "Symbol":  "Dy",
+        "Name":  "Dysprosium",
+        "AtomicMass":  "162.500(1)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  67,
+        "Symbol":  "Ho",
+        "Name":  "Holmium",
+        "AtomicMass":  "164.93032(2)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  68,
+        "Symbol":  "Er",
+        "Name":  "Erbium",
+        "AtomicMass":  "167.259(3)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  69,
+        "Symbol":  "Tm",
+        "Name":  "Thulium",
+        "AtomicMass":  "168.93421(2)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  70,
+        "Symbol":  "Yb",
+        "Name":  "Ytterbium",
+        "AtomicMass":  "173.054(5)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  71,
+        "Symbol":  "Lu",
+        "Name":  "Lutetium",
+        "AtomicMass":  "174.9668(1)",
+        "Group":  "lanthanoid"
+    },
+    {
+        "AtomicNumber":  72,
+        "Symbol":  "Hf",
+        "Name":  "Hafnium",
+        "AtomicMass":  "178.49(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  73,
+        "Symbol":  "Ta",
+        "Name":  "Tantalum",
+        "AtomicMass":  "180.94788(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  74,
+        "Symbol":  "W",
+        "Name":  "Tungsten",
+        "AtomicMass":  "183.84(1)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  75,
+        "Symbol":  "Re",
+        "Name":  "Rhenium",
+        "AtomicMass":  "186.207(1)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  76,
+        "Symbol":  "Os",
+        "Name":  "Osmium",
+        "AtomicMass":  "190.23(3)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  77,
+        "Symbol":  "Ir",
+        "Name":  "Iridium",
+        "AtomicMass":  "192.217(3)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  78,
+        "Symbol":  "Pt",
+        "Name":  "Platinum",
+        "AtomicMass":  "195.084(9)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  79,
+        "Symbol":  "Au",
+        "Name":  "Gold",
+        "AtomicMass":  "196.966569(4)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  80,
+        "Symbol":  "Hg",
+        "Name":  "Mercury",
+        "AtomicMass":  "200.59(2)",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  81,
+        "Symbol":  "Tl",
+        "Name":  "Thallium",
+        "AtomicMass":  "204.3833(2)",
+        "Group":  "metal"
+    },
+    {
+        "AtomicNumber":  82,
+        "Symbol":  "Pb",
+        "Name":  "Lead",
+        "AtomicMass":  "207.2(1)",
+        "Group":  "metal"
+    },
+    {
+        "AtomicNumber":  83,
+        "Symbol":  "Bi",
+        "Name":  "Bismuth",
+        "AtomicMass":  "208.98040(1)",
+        "Group":  "metal"
+    },
+    {
+        "AtomicNumber":  84,
+        "Symbol":  "Po",
+        "Name":  "Polonium",
+        "AtomicMass":  "[209]",
+        "Group":  "metalloid"
+    },
+    {
+        "AtomicNumber":  85,
+        "Symbol":  "At",
+        "Name":  "Astatine",
+        "AtomicMass":  "[210]",
+        "Group":  "halogen"
+    },
+    {
+        "AtomicNumber":  86,
+        "Symbol":  "Rn",
+        "Name":  "Radon",
+        "AtomicMass":  "[222]",
+        "Group":  "noble gas"
+    },
+    {
+        "AtomicNumber":  87,
+        "Symbol":  "Fr",
+        "Name":  "Francium",
+        "AtomicMass":  "[223]",
+        "Group":  "alkali metal"
+    },
+    {
+        "AtomicNumber":  88,
+        "Symbol":  "Ra",
+        "Name":  "Radium",
+        "AtomicMass":  "[226]",
+        "Group":  "alkaline earth metal"
+    },
+    {
+        "AtomicNumber":  89,
+        "Symbol":  "Ac",
+        "Name":  "Actinium",
+        "AtomicMass":  "[227]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  90,
+        "Symbol":  "Th",
+        "Name":  "Thorium",
+        "AtomicMass":  "232.03806(2)",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  91,
+        "Symbol":  "Pa",
+        "Name":  "Protactinium",
+        "AtomicMass":  "231.03588(2)",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  92,
+        "Symbol":  "U",
+        "Name":  "Uranium",
+        "AtomicMass":  "238.02891(3)",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  93,
+        "Symbol":  "Np",
+        "Name":  "Neptunium",
+        "AtomicMass":  "[237]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  94,
+        "Symbol":  "Pu",
+        "Name":  "Plutonium",
+        "AtomicMass":  "[244]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  95,
+        "Symbol":  "Am",
+        "Name":  "Americium",
+        "AtomicMass":  "[243]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  96,
+        "Symbol":  "Cm",
+        "Name":  "Curium",
+        "AtomicMass":  "[247]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  97,
+        "Symbol":  "Bk",
+        "Name":  "Berkelium",
+        "AtomicMass":  "[247]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  98,
+        "Symbol":  "Cf",
+        "Name":  "Californium",
+        "AtomicMass":  "[251]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  99,
+        "Symbol":  "Es",
+        "Name":  "Einsteinium",
+        "AtomicMass":  "[252]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  100,
+        "Symbol":  "Fm",
+        "Name":  "Fermium",
+        "AtomicMass":  "[257]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  101,
+        "Symbol":  "Md",
+        "Name":  "Mendelevium",
+        "AtomicMass":  "[258]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  102,
+        "Symbol":  "No",
+        "Name":  "Nobelium",
+        "AtomicMass":  "[259]",
+        "Group":  "actinoid"
+    },
+    {
+        "AtomicNumber":  103,
+        "Symbol":  "Lr",
+        "Name":  "Lawrencium",
+        "AtomicMass":  "[262]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  104,
+        "Symbol":  "Rf",
+        "Name":  "Rutherfordium",
+        "AtomicMass":  "[267]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  105,
+        "Symbol":  "Db",
+        "Name":  "Dubnium",
+        "AtomicMass":  "[268]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  106,
+        "Symbol":  "Sg",
+        "Name":  "Seaborgium",
+        "AtomicMass":  "[271]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  107,
+        "Symbol":  "Bh",
+        "Name":  "Bohrium",
+        "AtomicMass":  "[272]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  108,
+        "Symbol":  "Hs",
+        "Name":  "Hassium",
+        "AtomicMass":  "[270]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  109,
+        "Symbol":  "Mt",
+        "Name":  "Meitnerium",
+        "AtomicMass":  "[276]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  110,
+        "Symbol":  "Ds",
+        "Name":  "Darmstadtium",
+        "AtomicMass":  "[281]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  111,
+        "Symbol":  "Rg",
+        "Name":  "Roentgenium",
+        "AtomicMass":  "[280]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  112,
+        "Symbol":  "Cn",
+        "Name":  "Copernicium",
+        "AtomicMass":  "[285]",
+        "Group":  "transition metal"
+    },
+    {
+        "AtomicNumber":  113,
+        "Symbol":  "Nh",
+        "Name":  "Nihonium",
+        "AtomicMass":  "[284]",
+        "Group":  "post-transition metal"
+    },
+    {
+        "AtomicNumber":  114,
+        "Symbol":  "Fl",
+        "Name":  "Flerovium",
+        "AtomicMass":  "[289]",
+        "Group":  "post-transition metal"
+    },
+    {
+        "AtomicNumber":  115,
+        "Symbol":  "Mc",
+        "Name":  "Moscovium",
+        "AtomicMass":  "[288]",
+        "Group":  "post-transition metal"
+    },
+    {
+        "AtomicNumber":  116,
+        "Symbol":  "Lv",
+        "Name":  "Livermorium",
+        "AtomicMass":  "[293]",
+        "Group":  "post-transition metal"
+    },
+    {
+        "AtomicNumber":  117,
+        "Symbol":  "Ts",
+        "Name":  "Tennessine",
+        "AtomicMass":  "[294]",
+        "Group":  "post-transition metal"
+    },
+    {
+        "AtomicNumber":  118,
+        "Symbol":  "Og",
+        "Name":  "Oganesson",
+        "AtomicMass":  "[294]",
+        "Group":  "noble gas"
+    }
+]
