@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.IO;
 using System.Web.Services;
 using Newtonsoft.Json;
@@ -9,48 +10,70 @@ using Newtonsoft.Json;
 [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
 public class Service : System.Web.Services.WebService
 {
-    List<Atom> atoms;
+    List<Element> elements;
 
     public Service () {
-        using (StreamReader r = new StreamReader(Server.MapPath("atoms.json")))
+        using (StreamReader r = new StreamReader(Server.MapPath("elements.json")))
         {
             string json = r.ReadToEnd();
-            this.atoms = JsonConvert.DeserializeObject<List<Atom>>(json);
+            this.elements = JsonConvert.DeserializeObject<List<Element>>(json);
         }
     }
 
     [WebMethod]
-    public Atom[] GetAtoms()
+    public Element GetElement(string Name)
     {
-        return this.atoms.ToArray();
+        return this.FindElement(Name);
     }
 
     [WebMethod]
-    public Atom GetAtom(string Name)
+    public Element[] GetElements()
     {
-        return this.FindAtom(Name);
+        return this.elements.ToArray();
     }
     
     [WebMethod]
+    public Element[] GetElementsByGroup(Group group)
+    {
+        return this.elements.Where(atom => atom.Group == group).ToArray();
+    }
+
+    [WebMethod]
     public int GetAtomicNumber(string Name)
     {
-        return this.FindAtom(Name).AtomicNumber;
+        return this.FindElement(Name).AtomicNumber;
     }
 
     [WebMethod]
     public string GetAtomicMass(string Name)
     {
-        return this.FindAtom(Name).AtomicMass;
+        return this.FindElement(Name).AtomicMass;
     }
 
     [WebMethod]
     public string GetElementSymbol(string Name)
     {
-        return this.FindAtom(Name).Symbol;
+        return this.FindElement(Name).Symbol;
     }
-
-    private Atom FindAtom(string Name)
+  
+    [WebMethod]
+    public Element[] SearchElements(List<SearchCondition> searchConditions)
     {
-        return this.atoms.Where(atom => atom.Name == Name || atom.Symbol == Name).First<Atom>();
+        ParameterExpression parameter = Expression.Parameter(typeof(Element), "element");
+
+        BinaryExpression currentExpression = searchConditions.First().GetExpression(parameter);
+        foreach (SearchCondition condition in searchConditions.Skip(1))
+        {
+            currentExpression = Expression.And(currentExpression, condition.GetExpression(parameter));
+        }
+
+        var lambda = Expression.Lambda<Func<Element, bool>>(currentExpression, parameter);
+
+        return this.elements.AsQueryable().Where(lambda).ToArray();
+    }
+    
+    private Element FindElement(string Name)
+    {
+        return this.elements.Where(element => element.Name.ToLower() == Name.ToLower() || element.Symbol.ToLower() == Name.ToLower()).First<Element>();
     }
 }
