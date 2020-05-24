@@ -7,13 +7,19 @@ using System.Linq.Expressions;
 public class SearchCondition
 {
     public string PropertyName;
-    public object Value;
+    public string Value;
     public ComparisonOperator Operator;
 
     internal BinaryExpression GetExpression(ParameterExpression parameter)
     {
+        // Get the type of the intended property name
+        var typedValue = Convert.ChangeType(
+            this.Value,
+            typeof(Element).GetField(this.PropertyName).FieldType
+        );
+
         MemberExpression field = Expression.Field(parameter, this.PropertyName);
-        ConstantExpression value = Expression.Constant(this.Value);
+        ConstantExpression value = Expression.Constant(typedValue);
 
         return GetBinaryExpression(field, value);
     }
